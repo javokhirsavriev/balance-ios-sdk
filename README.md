@@ -1,1 +1,1 @@
-# balance-ios-sdk
+# Balance iOS SDK
