@@ -1,0 +1,198 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Balance
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
+@_exported import Balance
+import CoreML
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc public class BalanceConfig : ObjectiveC.NSObject {
+  @objc public var locale: Balance.BalanceLocale
+  @objc public var entryMode: Balance.BalanceEntryMode
+  @objc public var presentationStyle: Balance.BalancePresentationStyle
+  @objc public var appearance: Balance.BalanceAppearance?
+  @objc public var previewSettings: Balance.BalancePreviewSettings
+  @objc public var stepSettings: Balance.BalanceStepSettings?
+  @objc public var isResident: Swift.Bool
+  @objc public var requireDocumentDetectionOnSelfieStage: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BalanceException : ObjectiveC.NSObject {
+  @objc public var message: Swift.String?
+  @objc public var code: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BalancePreviewSettings : ObjectiveC.NSObject {
+  @objc public var documentFront: Swift.Bool
+  @objc public var documentBack: Swift.Bool
+  @objc public var selfieWithPassport: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum BalancePresentationStyle : Swift.Int {
+  case Full = 0
+  case Sheet
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class BalanceStepSettings : ObjectiveC.NSObject {
+  @objc public var current: Swift.Int
+  @objc public var total: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BalanceAction : ObjectiveC.NSObject {
+  @_inheritsConvenienceInitializers @objc public class Complete : Balance.BalanceAction {
+    @objc public var result: Balance.BalanceResult
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @objc public class Error : Balance.BalanceAction {
+    @objc public var exception: Balance.BalanceException
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @objc public class Permission : Balance.BalanceAction {
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @objc public class Cancel : Balance.BalanceAction {
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum BalanceLocale : Swift.Int {
+  case Kyrgyz = 0
+  case English
+  case Russian
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension ObjectiveC.NSObject : Balance.ImageCroppable {
+}
+extension CoreGraphics.CGImage : Balance.ImageCroppable {
+}
+public protocol ImageCroppable {
+}
+public enum DetectionType {
+  case face
+  case barcode
+  case text
+  public static func == (a: Balance.DetectionType, b: Balance.DetectionType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ImageDetectResult<T> {
+  case success([T])
+  case notFound
+  case failure(any Swift.Error)
+}
+public struct ImageDetect<T> {
+}
+extension Balance.ImageCroppable {
+  public var detector: Balance.ImageDetect<Self> {
+    get
+  }
+}
+extension Balance.ImageDetect where T : CoreGraphics.CGImage {
+  public func crop(type: Balance.DetectionType, completion: @escaping (Balance.ImageDetectResult<CoreGraphics.CGImage>) -> Swift.Void)
+}
+extension Balance.ImageDetect where T : UIKit.UIImage {
+  public func crop(type: Balance.DetectionType, completion: @escaping (Balance.ImageDetectResult<UIKit.UIImage>) -> Swift.Void)
+}
+@objc public enum BalanceEntryMode : Swift.Int {
+  case FullIdent = 0
+  case PassportOnly
+  case SelfieWithPassport
+  case SelfieOnly
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol BalanceClientDelegate {
+  @objc func onCompletion(action: Balance.BalanceAction)
+}
+@_inheritsConvenienceInitializers @objc public class BalanceResult : ObjectiveC.NSObject {
+  @objc public var personalNumber: Swift.String
+  @objc public var idSeriesNumber: Swift.String
+  @objc public var passportResult: Balance.BalancePassportResult?
+  @objc public var editablePassportResult: Balance.BalanceEditablePassportResult?
+  @objc public var selfie: UIKit.UIImage?
+  @objc public var selfieWithDocument: UIKit.UIImage?
+  @objc public var documentFace: UIKit.UIImage?
+  @objc public var documentFront: UIKit.UIImage?
+  @objc public var documentBack: UIKit.UIImage?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BalancePassportResult : ObjectiveC.NSObject {
+  @objc public var pinfl: Swift.String?
+  @objc public var document: Swift.String?
+  @objc public var firstName: Swift.String?
+  @objc public var lastName: Swift.String?
+  @objc public var birthDate: Foundation.Date?
+  @objc public var expiryDate: Foundation.Date?
+  @objc public var countryCode: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BalanceEditablePassportResult : ObjectiveC.NSObject {
+  @objc public var pinfl: Swift.String?
+  @objc public var document: Swift.String?
+  @objc public var firstName: Swift.String?
+  @objc public var lastName: Swift.String?
+  @objc public var birthDate: Swift.String?
+  @objc public var expiryDate: Swift.String?
+  @objc public var countryCode: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BalanceAppearance : ObjectiveC.NSObject {
+  @objc public var colorPrimary: UIKit.UIColor?
+  @objc public var colorError: UIKit.UIColor?
+  @objc public var colorBackground: UIKit.UIColor?
+  @objc public var colorForeground: UIKit.UIColor?
+  @objc public var colorOutline: UIKit.UIColor?
+  @objc public var colorDivider: UIKit.UIColor?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BalanceClient : ObjectiveC.NSObject {
+  @objc public class func showScanner(withConfig config: Balance.BalanceConfig, withDelegate delegate: any Balance.BalanceClientDelegate)
+  @objc public class func buildBalanceNavigationController(withConfig config: Balance.BalanceConfig, withDelegate delegate: any Balance.BalanceClientDelegate, showCancelButton: Swift.Bool = true, shouldDismiss: Swift.Bool = false) -> UIKit.UINavigationController
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Balance.BalancePresentationStyle : Swift.Equatable {}
+extension Balance.BalancePresentationStyle : Swift.Hashable {}
+extension Balance.BalancePresentationStyle : Swift.RawRepresentable {}
+extension Balance.BalanceLocale : Swift.Equatable {}
+extension Balance.BalanceLocale : Swift.Hashable {}
+extension Balance.BalanceLocale : Swift.RawRepresentable {}
+extension Balance.DetectionType : Swift.Equatable {}
+extension Balance.DetectionType : Swift.Hashable {}
+extension Balance.BalanceEntryMode : Swift.Equatable {}
+extension Balance.BalanceEntryMode : Swift.Hashable {}
+extension Balance.BalanceEntryMode : Swift.RawRepresentable {}

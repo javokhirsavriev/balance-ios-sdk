@@ -1,0 +1,11 @@
+framework module Balance {
+  umbrella header "Balance.h"
+  export *
+
+  module * { export * }
+}
+
+module Balance.Swift {
+  header "Balance-Swift.h"
+  requires objc
+}
