@@ -280,6 +280,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import ObjectiveC;
 #endif
 
@@ -302,40 +303,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-
-SWIFT_CLASS("_TtC7Balance13BalanceAction")
-@interface BalanceAction : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class BalanceResult;
-
-SWIFT_CLASS("_TtCC7Balance13BalanceAction8Complete")
-@interface Complete : BalanceAction
-@property (nonatomic, strong) BalanceResult * _Nonnull result;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class BalanceException;
-
-SWIFT_CLASS("_TtCC7Balance13BalanceAction5Error")
-@interface Error : BalanceAction
-@property (nonatomic, strong) BalanceException * _Nonnull exception;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtCC7Balance13BalanceAction10Permission")
-@interface Permission : BalanceAction
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtCC7Balance13BalanceAction6Cancel")
-@interface Cancel : BalanceAction
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UIColor;
 
 SWIFT_CLASS("_TtC7Balance17BalanceAppearance")
@@ -349,6 +316,7 @@ SWIFT_CLASS("_TtC7Balance17BalanceAppearance")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 @class BalanceConfig;
 @protocol BalanceClientDelegate;
 @class UINavigationController;
@@ -356,14 +324,18 @@ SWIFT_CLASS("_TtC7Balance17BalanceAppearance")
 SWIFT_CLASS("_TtC7Balance13BalanceClient")
 @interface BalanceClient : NSObject
 + (void)showScannerWithConfig:(BalanceConfig * _Nonnull)config withDelegate:(id <BalanceClientDelegate> _Nonnull)delegate;
-+ (UINavigationController * _Nonnull)buildBalanceNavigationControllerWithConfig:(BalanceConfig * _Nonnull)config withDelegate:(id <BalanceClientDelegate> _Nonnull)delegate showCancelButton:(BOOL)showCancelButton shouldDismiss:(BOOL)shouldDismiss SWIFT_WARN_UNUSED_RESULT;
++ (UINavigationController * _Nonnull)buildViewControllerWithConfig:(BalanceConfig * _Nonnull)config withDelegate:(id <BalanceClientDelegate> _Nonnull)delegate showCancelButton:(BOOL)showCancelButton shouldDismiss:(BOOL)shouldDismiss SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class BalanceResult;
+@class BalanceException;
 
 SWIFT_PROTOCOL("_TtP7Balance21BalanceClientDelegate_")
 @protocol BalanceClientDelegate
-- (void)onCompletionWithAction:(BalanceAction * _Nonnull)action;
+- (void)onCompletedWithResult:(BalanceResult * _Nonnull)result;
+- (void)onFailedWithException:(BalanceException * _Nonnull)exception;
+- (void)onCanceled;
 @end
 
 enum BalanceLocale : NSInteger;
@@ -382,20 +354,7 @@ SWIFT_CLASS("_TtC7Balance13BalanceConfig")
 @property (nonatomic, strong) BalanceStepSettings * _Nullable stepSettings;
 @property (nonatomic) BOOL isResident;
 @property (nonatomic) BOOL requireDocumentDetectionOnSelfieStage;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NSString;
-
-SWIFT_CLASS("_TtC7Balance29BalanceEditablePassportResult")
-@interface BalanceEditablePassportResult : NSObject
-@property (nonatomic, copy) NSString * _Nullable pinfl;
-@property (nonatomic, copy) NSString * _Nullable document;
-@property (nonatomic, copy) NSString * _Nullable firstName;
-@property (nonatomic, copy) NSString * _Nullable lastName;
-@property (nonatomic, copy) NSString * _Nullable birthDate;
-@property (nonatomic, copy) NSString * _Nullable expiryDate;
-@property (nonatomic, copy) NSString * _Nullable countryCode;
+@property (nonatomic) CGFloat faceCropExpandPercent;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -406,12 +365,14 @@ typedef SWIFT_ENUM(NSInteger, BalanceEntryMode, open) {
   BalanceEntryModeSelfieOnly = 3,
 };
 
+@class NSString;
 
 SWIFT_CLASS("_TtC7Balance16BalanceException")
 @interface BalanceException : NSObject
-@property (nonatomic, copy) NSString * _Nullable message;
+@property (nonatomic, copy) NSString * _Nonnull message;
 @property (nonatomic) NSInteger code;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 typedef SWIFT_ENUM(NSInteger, BalanceLocale, open) {
@@ -420,7 +381,6 @@ typedef SWIFT_ENUM(NSInteger, BalanceLocale, open) {
   BalanceLocaleRussian = 2,
 };
 
-@class NSDate;
 
 SWIFT_CLASS("_TtC7Balance21BalancePassportResult")
 @interface BalancePassportResult : NSObject
@@ -428,8 +388,8 @@ SWIFT_CLASS("_TtC7Balance21BalancePassportResult")
 @property (nonatomic, copy) NSString * _Nullable document;
 @property (nonatomic, copy) NSString * _Nullable firstName;
 @property (nonatomic, copy) NSString * _Nullable lastName;
-@property (nonatomic, copy) NSDate * _Nullable birthDate;
-@property (nonatomic, copy) NSDate * _Nullable expiryDate;
+@property (nonatomic, copy) NSString * _Nullable birthDate;
+@property (nonatomic, copy) NSString * _Nullable expiryDate;
 @property (nonatomic, copy) NSString * _Nullable countryCode;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -444,9 +404,10 @@ SWIFT_CLASS("_TtC7Balance22BalancePreviewSettings")
 @interface BalancePreviewSettings : NSObject
 @property (nonatomic) BOOL documentFront;
 @property (nonatomic) BOOL documentBack;
-@property (nonatomic) BOOL selfieWithPassport;
+@property (nonatomic) BOOL selfieWithDocument;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 @class UIImage;
 
@@ -455,7 +416,7 @@ SWIFT_CLASS("_TtC7Balance13BalanceResult")
 @property (nonatomic, copy) NSString * _Nonnull personalNumber;
 @property (nonatomic, copy) NSString * _Nonnull idSeriesNumber;
 @property (nonatomic, strong) BalancePassportResult * _Nullable passportResult;
-@property (nonatomic, strong) BalanceEditablePassportResult * _Nullable editablePassportResult;
+@property (nonatomic, strong) BalancePassportResult * _Nullable editablePassportResult;
 @property (nonatomic, strong) UIImage * _Nullable selfie;
 @property (nonatomic, strong) UIImage * _Nullable selfieWithDocument;
 @property (nonatomic, strong) UIImage * _Nullable documentFace;
@@ -471,6 +432,8 @@ SWIFT_CLASS("_TtC7Balance19BalanceStepSettings")
 @property (nonatomic) NSInteger total;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 
 
