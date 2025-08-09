@@ -361,7 +361,7 @@ SWIFT_CLASS("_TtC7Balance13BalanceConfig")
 typedef SWIFT_ENUM(NSInteger, BalanceEntryMode, open) {
   BalanceEntryModeFullIdent = 0,
   BalanceEntryModePassportOnly = 1,
-  BalanceEntryModeSelfieWithPassport = 2,
+  BalanceEntryModeSelfieWithDocument = 2,
   BalanceEntryModeSelfieOnly = 3,
 };
 
@@ -815,7 +815,7 @@ SWIFT_CLASS("_TtC7Balance13BalanceConfig")
 typedef SWIFT_ENUM(NSInteger, BalanceEntryMode, open) {
   BalanceEntryModeFullIdent = 0,
   BalanceEntryModePassportOnly = 1,
-  BalanceEntryModeSelfieWithPassport = 2,
+  BalanceEntryModeSelfieWithDocument = 2,
   BalanceEntryModeSelfieOnly = 3,
 };
 

@@ -3478,8 +3478,8 @@
           },
           {
             "kind": "Var",
-            "name": "SelfieWithPassport",
-            "printedName": "SelfieWithPassport",
+            "name": "SelfieWithDocument",
+            "printedName": "SelfieWithDocument",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -3509,8 +3509,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@Balance@E@BalanceEntryMode@BalanceEntryModeSelfieWithPassport",
-            "mangledName": "$s7Balance0A9EntryModeO18SelfieWithPassportyA2CmF",
+            "usr": "c:@M@Balance@E@BalanceEntryMode@BalanceEntryModeSelfieWithDocument",
+            "mangledName": "$s7Balance0A9EntryModeO18SelfieWithDocumentyA2CmF",
             "moduleName": "Balance",
             "declAttributes": [
               "ObjC"
@@ -6731,1064 +6731,1064 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentGraphicView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentGraphicView.swift",
       "kind": "BooleanLiteral",
       "offset": 287,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
       "kind": "StringLiteral",
       "offset": 127,
       "length": 9,
       "value": "\"#50D890\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 9,
       "value": "\"#FF0000\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 9,
       "value": "\"#000000\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
       "kind": "StringLiteral",
       "offset": 278,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
       "kind": "StringLiteral",
       "offset": 327,
       "length": 9,
       "value": "\"#424242\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
       "kind": "StringLiteral",
       "offset": 376,
       "length": 9,
       "value": "\"#212121\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Resources\/AppColors.swift",
       "kind": "IntegerLiteral",
       "offset": 469,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
       "kind": "StringLiteral",
       "offset": 765,
       "length": 20,
       "value": "\"Video Output Queue\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
       "kind": "StringLiteral",
       "offset": 847,
       "length": 24,
       "value": "\"Image Processing Queue\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
       "kind": "StringLiteral",
       "offset": 1216,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
       "kind": "StringLiteral",
       "offset": 1252,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 1331,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1370,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1409,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/IdCardDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1443,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 457,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 623,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 787,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1041,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 1083,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 1215,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 15722,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 15834,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 16000,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 16078,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 16112,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 16139,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 16313,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "StringLiteral",
       "offset": 16430,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 16577,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 16921,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 16961,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 16996,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "StringLiteral",
       "offset": 19269,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceStepSettings.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceStepSettings.swift",
       "kind": "IntegerLiteral",
       "offset": 176,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceStepSettings.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceStepSettings.swift",
       "kind": "IntegerLiteral",
       "offset": 212,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
       "kind": "FloatLiteral",
       "offset": 195,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
       "kind": "FloatLiteral",
       "offset": 230,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
       "kind": "FloatLiteral",
       "offset": 263,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 573,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 626,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
       "kind": "FloatLiteral",
       "offset": 672,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DetectType.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DetectType.swift",
       "kind": "IntegerLiteral",
       "offset": 108,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DetectType.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DetectType.swift",
       "kind": "IntegerLiteral",
       "offset": 122,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/Extensions\/UIImage.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Extensions\/UIImage.swift",
       "kind": "BooleanLiteral",
       "offset": 127,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/Extensions\/UIImage.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Extensions\/UIImage.swift",
       "kind": "BooleanLiteral",
       "offset": 227,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/BalanceClient.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/BalanceClient.swift",
       "kind": "BooleanLiteral",
       "offset": 601,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/BalanceClient.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/BalanceClient.swift",
       "kind": "BooleanLiteral",
       "offset": 637,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/BalanceClient.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/BalanceClient.swift",
       "kind": "BooleanLiteral",
       "offset": 6845,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonLocale.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonLocale.swift",
       "kind": "IntegerLiteral",
       "offset": 125,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonLocale.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonLocale.swift",
       "kind": "IntegerLiteral",
       "offset": 136,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonLocale.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonLocale.swift",
       "kind": "IntegerLiteral",
       "offset": 153,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "StringLiteral",
       "offset": 154,
       "length": 157,
       "value": "\"(P[A-Z0-9<])([A-Z]{3})([A-Z0-9<]{39})([A-Z0-9<]{9})([0-9OI])([A-Z]{3})([0-9]{6})([0-9OI<])([M|F|X|<])([0-9K<]{6})([0-9K<])([A-Z0-9K<]{14})([0-9<])([0-9OI])\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "StringLiteral",
       "offset": 354,
       "length": 145,
       "value": "\"([A|C|I][A-Z0-9<])([A-Z]{3})([A-Z0-9<]{25})([0-9]{6})([0-9OI])([M|F|X|<])([0-9K<]{6})([0-9OI])([A-Z]{3})([A-Z0-9<]{11})([0-9OI])([A-Z0-9<]{30})\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "BooleanLiteral",
       "offset": 563,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "BooleanLiteral",
       "offset": 656,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "BooleanLiteral",
       "offset": 699,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonResult.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonResult.swift",
       "kind": "StringLiteral",
       "offset": 141,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonResult.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonResult.swift",
       "kind": "StringLiteral",
       "offset": 177,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/Detector\/IdCardDetector.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/IdCardDetector.swift",
       "kind": "StringLiteral",
       "offset": 149,
       "length": 139,
       "value": "\"([A|C|I][A-Z0-9<])([A-Z]{3})([A-Z0-9<]{25})([0-9]{6})([0-9])([M|F|X|<])([0-9K<]{6})([0-9])([A-Z]{3})([A-Z0-9<]{11})([0-9])([A-Z0-9<]{30})\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/Detector\/IdCardDetector.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/IdCardDetector.swift",
       "kind": "BooleanLiteral",
       "offset": 356,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Base\/BaseScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Base\/BaseScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 271,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Base\/BaseScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Base\/BaseScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 300,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Base\/BaseScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Base\/BaseScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 616,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Base\/BaseScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Base\/BaseScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 799,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonStepSettings.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonStepSettings.swift",
       "kind": "IntegerLiteral",
       "offset": 148,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonStepSettings.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonStepSettings.swift",
       "kind": "IntegerLiteral",
       "offset": 171,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentBackgroundView.swift",
       "kind": "FloatLiteral",
       "offset": 198,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 514,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePresentationStyle.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePresentationStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePresentationStyle.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePresentationStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 171,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
       "kind": "StringLiteral",
       "offset": 720,
       "length": 20,
       "value": "\"Video Output Queue\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
       "kind": "StringLiteral",
       "offset": 802,
       "length": 24,
       "value": "\"Image Processing Queue\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1235,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1278,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1317,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1351,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/BalanceConfig.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/BalanceConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 548,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/BalanceConfig.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/BalanceConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 620,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/BalanceConfig.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/BalanceConfig.swift",
       "kind": "FloatLiteral",
       "offset": 679,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonPreviewSettings.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonPreviewSettings.swift",
       "kind": "BooleanLiteral",
       "offset": 161,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonPreviewSettings.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonPreviewSettings.swift",
       "kind": "BooleanLiteral",
       "offset": 196,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonPreviewSettings.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonPreviewSettings.swift",
       "kind": "BooleanLiteral",
       "offset": 237,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonPresentationStyle.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonPresentationStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 145,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonPresentationStyle.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonPresentationStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 156,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
       "kind": "StringLiteral",
       "offset": 1013,
       "length": 20,
       "value": "\"Video Output Queue\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
       "kind": "StringLiteral",
       "offset": 1095,
       "length": 24,
       "value": "\"Image Processing Queue\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 1257,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 1290,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1335,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1384,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1423,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceEntryMode.swift",
       "kind": "IntegerLiteral",
       "offset": 149,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceEntryMode.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceEntryMode.swift",
       "kind": "IntegerLiteral",
       "offset": 182,
       "length": 18,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceEntryMode.swift",
       "kind": "IntegerLiteral",
       "offset": 210,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
       "kind": "IntegerLiteral",
       "offset": 204,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
       "kind": "IntegerLiteral",
       "offset": 269,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
       "kind": "StringLiteral",
       "offset": 459,
       "length": 10,
       "value": "\"yyyyMMdd\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
       "kind": "StringLiteral",
       "offset": 516,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
       "kind": "StringLiteral",
       "offset": 583,
       "length": 10,
       "value": "\"GMT+0:00\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
       "kind": "BooleanLiteral",
       "offset": 2601,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonEntryMode.swift",
       "kind": "IntegerLiteral",
       "offset": 134,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonEntryMode.swift",
       "kind": "IntegerLiteral",
       "offset": 145,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonEntryMode.swift",
       "kind": "IntegerLiteral",
       "offset": 167,
       "length": 18,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Common\/Model\/CommonEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonEntryMode.swift",
       "kind": "IntegerLiteral",
       "offset": 195,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceResult.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceResult.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceResult.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceResult.swift",
       "kind": "StringLiteral",
       "offset": 218,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
       "kind": "StringLiteral",
       "offset": 864,
       "length": 20,
       "value": "\"Video Output Queue\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
       "kind": "StringLiteral",
       "offset": 946,
       "length": 24,
       "value": "\"Image Processing Queue\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
       "kind": "BooleanLiteral",
       "offset": 1104,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
       "kind": "BooleanLiteral",
       "offset": 1149,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
       "kind": "IntegerLiteral",
       "offset": 1182,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
       "kind": "IntegerLiteral",
       "offset": 1219,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionCameraView.swift",
       "kind": "IntegerLiteral",
       "offset": 1256,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePreviewSettings.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePreviewSettings.swift",
       "kind": "BooleanLiteral",
       "offset": 189,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePreviewSettings.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePreviewSettings.swift",
       "kind": "BooleanLiteral",
       "offset": 237,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePreviewSettings.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePreviewSettings.swift",
       "kind": "BooleanLiteral",
       "offset": 291,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 329,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
       "kind": "IntegerLiteral",
       "offset": 522,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
       "kind": "IntegerLiteral",
       "offset": 599,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
       "kind": "IntegerLiteral",
       "offset": 673,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
       "kind": "IntegerLiteral",
       "offset": 3586,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
       "kind": "IntegerLiteral",
       "offset": 3630,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
       "kind": "IntegerLiteral",
       "offset": 4101,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
       "kind": "IntegerLiteral",
       "offset": 4105,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
       "kind": "FloatLiteral",
       "offset": 4156,
       "length": 3,
       "value": "2.5"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/ID Card detection\/DocumentBackgroundView.swift",
       "kind": "IntegerLiteral",
       "offset": 4199,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 397,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 555,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 589,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 768,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 918,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1051,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
       "kind": "StringLiteral",
       "offset": 1294,
       "length": 19,
       "value": "\"common_icon_check\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1376,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Face detection\/FaceDetectionScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 1504,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceLocale.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceLocale.swift",
       "kind": "IntegerLiteral",
       "offset": 140,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceLocale.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceLocale.swift",
       "kind": "IntegerLiteral",
       "offset": 151,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/iOS\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceLocale.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceLocale.swift",
       "kind": "IntegerLiteral",
       "offset": 168,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-gomavxjsohkxvjcwfjxbxczfvnnr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/CoreMLGenerated\/common_license\/common_license.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-bxzsavplcvizcacznlenvsphelde\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/CoreMLGenerated\/common_license\/common_license.swift",
       "kind": "Array",
       "offset": 666,
       "length": 48,
       "value": "[\"image\", \"iouThreshold\", \"confidenceThreshold\"]"
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-gomavxjsohkxvjcwfjxbxczfvnnr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-bxzsavplcvizcacznlenvsphelde\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 762,
       "length": 28,
       "value": "\"common_icon_flashlight_off\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-gomavxjsohkxvjcwfjxbxczfvnnr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-bxzsavplcvizcacznlenvsphelde\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 947,
       "length": 27,
       "value": "\"common_icon_flashlight_on\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-gomavxjsohkxvjcwfjxbxczfvnnr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-bxzsavplcvizcacznlenvsphelde\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1150,
       "length": 37,
       "value": "\"common_shape_document_face_detected\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-gomavxjsohkxvjcwfjxbxczfvnnr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-bxzsavplcvizcacznlenvsphelde\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1355,
       "length": 33,
       "value": "\"common_shape_document_face_idle\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-gomavxjsohkxvjcwfjxbxczfvnnr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-bxzsavplcvizcacznlenvsphelde\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1562,
       "length": 36,
       "value": "\"common_shape_document_mrz_detected\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-gomavxjsohkxvjcwfjxbxczfvnnr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-bxzsavplcvizcacznlenvsphelde\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1764,
       "length": 32,
       "value": "\"common_shape_document_mrz_idle\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-gomavxjsohkxvjcwfjxbxczfvnnr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-bxzsavplcvizcacznlenvsphelde\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1936,
       "length": 18,
       "value": "\"common_icon_back\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-gomavxjsohkxvjcwfjxbxczfvnnr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-bxzsavplcvizcacznlenvsphelde\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2096,
       "length": 19,
