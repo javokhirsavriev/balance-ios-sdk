@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		sAHerlpTFYlci6COW6SUQwuWXyw=
+		Ibd/owuKehv90BVTe2/BMRdlBvY=
 		</data>
 		<key>Headers/Balance-Swift.h</key>
 		<data>
-		ajP1yYqsG4KJqXYUkuEHOXr9laU=
+		SWbDxQefo5e8LE2c6dp0fbjnhFI=
 		</data>
 		<key>Headers/Balance.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hXHIU+YKI/HsVlHh5i1nYm88HF4=
+		cpe6T+AXz2BXPVvTWoXGdmgsEWM=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		iCkBiv7WDKlcWXJUxt69Uyjs+nM=
+		WMJ9PkBMDwtj63KPDwSy9c/Pdz8=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		HGU1R55m0+E9IOZWXXv14UZTk3o=
+		LzPED30Fq+zRXy6FncXGXQIKl+A=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		98vMawSgO0gZhD7FvNiev1IwIP0=
+		ot+aOO1l7qF6xfYYJff7mv8BR94=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		HGU1R55m0+E9IOZWXXv14UZTk3o=
+		LzPED30Fq+zRXy6FncXGXQIKl+A=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		g2zAselsrX8QZibb2LPb7nmx9WY=
+		+omIEijmy6I0WMJh4B8lYTjsirU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>common_license.mlmodelc/coremldata.bin</key>
 		<data>
-		bs/3VlNg3Qe/Sn7LUnzi4G9/D7I=
+		5N3PswTBeU1yR6tTjwSAEpjj1ME=
 		</data>
 		<key>common_license.mlmodelc/metadata.json</key>
 		<data>
-		zuwu4EYFo8Lg9Pba2O4ILnWzx3I=
+		UeKuXU5bwxXewrp/hLGB/aHx9Vo=
 		</data>
 		<key>common_license.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>common_license.mlmodelc/model0/coremldata.bin</key>
 		<data>
-		e9S8M9R9OLYZvPC2vHlWx4IuYfk=
+		lYpiPyxz3lDFXo7h2geQnqjMNbI=
 		</data>
 		<key>common_license.mlmodelc/model0/model.mil</key>
 		<data>
-		UWNwpA6cVZZZ3R5ztMGUCBd3JME=
+		CZDPKqTW3fSpoZl9gRHhHILWzs8=
 		</data>
 		<key>common_license.mlmodelc/model0/weights/weight.bin</key>
 		<data>
@@ -87,14 +87,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aLf2c0jbcFwOR6wSdIBc80frGkxKvX5YbD25BcoGzXE=
+			7GsAlYc7cwyRCHFo7mv5RDojfKixT01Ln8ABFKgLSJA=
 			</data>
 		</dict>
 		<key>Headers/Balance-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G5D/gqOs9UraRYzMEVJymbWCzbD2SuiFZFi54tqNPEM=
+			moLREfNn9BCafIbDMlZiXRFs1VF9lsf2LA/iaZCKZGs=
 			</data>
 		</dict>
 		<key>Headers/Balance.h</key>
@@ -108,35 +108,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NRwwLtNkdiBet/VR7GPnnMKVUTpToYftRW56DXXJsME=
+			GtVvSzIhVf+Hq0mutxDmesdNMvhAgOFYydTVSDkCV7Q=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ply2R9Iz+NVSmgwfMkpKVUXUUc+8ViYJYyPtTGJHGVQ=
+			enDXXFrmVNjq9kK9BExVFdASmasVrtlw8tfIcaX1KD4=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AV8dA9gxrn5jE/9Yzqp4aK30hzs2J6zXD9XH0gs8Dw0=
+			th/zRbQ72cvup7FTAjjelPcpH82zW4+iuVigwwqns4Q=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ply2R9Iz+NVSmgwfMkpKVUXUUc+8ViYJYyPtTGJHGVQ=
+			enDXXFrmVNjq9kK9BExVFdASmasVrtlw8tfIcaX1KD4=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			otxWWCqyvR9BR9M4X28j8t5AmBBAuFAO/Er7CVIKb5Y=
+			D+oI7cFn/ig0YI9pQ+OJ/F9P4DgO3/rcp2X7ChkjoF4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -164,14 +164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hZ9VrZN3VaZG78fr1T5r4zOlIReW476Py54g3oIJefQ=
+			weUEo5td6AUi+NUJqE/MJVoGN2piN2/yxPNS5xmowAM=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QY2xLen8Ss/9io9TPIW3xXjN3QjvDg2OxRqRjc9N7ek=
+			pANTEofLOcK4nInU2WvR2kvG2iQncDugYr3FflljsLE=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/model0/analytics/coremldata.bin</key>
@@ -185,14 +185,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D3nIMKS6Zuoiuzme9pGD3ur8d7IgPkonUTWsO7Z9dCo=
+			+z82Kd75rKx3a5pHCwO8xfCtT8LWruLqIwacOgEXCyk=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/model0/model.mil</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gOsUoILSQajEH1MiCPIuYkvNWx3oYvHOdtj63zmWYfg=
+			bl/eYA2LFYZKmZyXYAeUZZr/AHe0LOklNUkzDV0pVcA=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/model0/weights/weight.bin</key>

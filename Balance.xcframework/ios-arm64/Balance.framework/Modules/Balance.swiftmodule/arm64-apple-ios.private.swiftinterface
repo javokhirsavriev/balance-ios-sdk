@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Balance
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Balance
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
 @_exported import Balance
 import CoreImage.CIFilterBuiltins
@@ -32,7 +32,9 @@ import _SwiftConcurrencyShims
 @objc public enum BalancePresentationStyle : Swift.Int {
   case Full = 0
   case Sheet
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -77,7 +79,9 @@ import _SwiftConcurrencyShims
   case PassportOnly
   case SelfieWithDocument
   case SelfieOnly
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -118,7 +122,9 @@ import _SwiftConcurrencyShims
   case Kyrgyz = 0
   case English
   case Russian
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -127,9 +133,9 @@ import _SwiftConcurrencyShims
 extension Balance.BalancePresentationStyle : Swift.Equatable {}
 extension Balance.BalancePresentationStyle : Swift.Hashable {}
 extension Balance.BalancePresentationStyle : Swift.RawRepresentable {}
-extension Balance.BalanceLocale : Swift.Equatable {}
-extension Balance.BalanceLocale : Swift.Hashable {}
-extension Balance.BalanceLocale : Swift.RawRepresentable {}
 extension Balance.BalanceEntryMode : Swift.Equatable {}
 extension Balance.BalanceEntryMode : Swift.Hashable {}
 extension Balance.BalanceEntryMode : Swift.RawRepresentable {}
+extension Balance.BalanceLocale : Swift.Equatable {}
+extension Balance.BalanceLocale : Swift.Hashable {}
+extension Balance.BalanceLocale : Swift.RawRepresentable {}
