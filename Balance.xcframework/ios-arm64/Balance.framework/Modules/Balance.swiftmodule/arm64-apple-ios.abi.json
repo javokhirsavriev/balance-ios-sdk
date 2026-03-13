@@ -7013,34 +7013,34 @@
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "StringLiteral",
       "offset": 154,
-      "length": 162,
-      "value": "\"(P[A-Z0-9<])([A-Z]{3})([A-Z0-9<]{39})([A-Z0-9<]{9})([0-9OI])([A-Z]{3})([0-9]{6})([0-9OIKEC<])([M|F|X|<])([9KEC<]{6})([0-9KEC<])([A-Z0-9K<]{14})([0-9<])([0-9OI])\""
+      "length": 157,
+      "value": "\"(P[A-Z0-9<])([A-Z]{3})([A-Z0-9<]{39})([A-Z0-9<]{9})([0-9OI])([A-Z]{3})([0-9]{6})([0-9OI<])([M|F|X|<])([0-9K<]{6})([0-9K<])([A-Z0-9K<]{14})([0-9<])([0-9OI])\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "StringLiteral",
-      "offset": 359,
+      "offset": 354,
       "length": 145,
       "value": "\"([A|C|I][A-Z0-9<])([A-Z]{3})([A-Z0-9<]{25})([0-9]{6})([0-9OI])([M|F|X|<])([0-9K<]{6})([0-9OI])([A-Z]{3})([A-Z0-9<]{11})([0-9OI])([A-Z0-9<]{30})\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 568,
+      "offset": 563,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 661,
+      "offset": 656,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 704,
+      "offset": 699,
       "length": 5,
       "value": "false"
     },

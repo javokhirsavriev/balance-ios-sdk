@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Ibd/owuKehv90BVTe2/BMRdlBvY=
+		lvAzlg1Bmnb0bZ8C2BRFwBpfCbY=
 		</data>
 		<key>Headers/Balance-Swift.h</key>
 		<data>
-		SWbDxQefo5e8LE2c6dp0fbjnhFI=
+		gDRDEDOWxXIsDoxvJFpTdEkuFds=
 		</data>
 		<key>Headers/Balance.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cpe6T+AXz2BXPVvTWoXGdmgsEWM=
+		vBGhJE3so7eUSdTbbGZpLN/GHVw=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		WMJ9PkBMDwtj63KPDwSy9c/Pdz8=
+		a68iFaScILUjXzAAkQ60tR8X3l4=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		LzPED30Fq+zRXy6FncXGXQIKl+A=
+		tcZZRjt+mW3P5rrgX1PqYK5YOkA=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ot+aOO1l7qF6xfYYJff7mv8BR94=
+		09HdP9QppTraDzDsXfik1s/WUIQ=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		LzPED30Fq+zRXy6FncXGXQIKl+A=
+		tcZZRjt+mW3P5rrgX1PqYK5YOkA=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+omIEijmy6I0WMJh4B8lYTjsirU=
+		291LrcpVdrlu51n8osR3ngizX3c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>common_license.mlmodelc/coremldata.bin</key>
 		<data>
-		5N3PswTBeU1yR6tTjwSAEpjj1ME=
+		jvUk22p2yFslv5Rw1X022IubJP4=
 		</data>
 		<key>common_license.mlmodelc/metadata.json</key>
 		<data>
-		UeKuXU5bwxXewrp/hLGB/aHx9Vo=
+		DrykOhpaofHObUuMBqkE3jQ5rF0=
 		</data>
 		<key>common_license.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>common_license.mlmodelc/model0/coremldata.bin</key>
 		<data>
-		lYpiPyxz3lDFXo7h2geQnqjMNbI=
+		XPsRu6aD1RT7I7FaLztDzDRgpDc=
 		</data>
 		<key>common_license.mlmodelc/model0/model.mil</key>
 		<data>
@@ -87,14 +87,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7GsAlYc7cwyRCHFo7mv5RDojfKixT01Ln8ABFKgLSJA=
+			3X+SPwYpWFXJYZaXI5fKegby0rot7Enq91dwT1pOnMI=
 			</data>
 		</dict>
 		<key>Headers/Balance-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			moLREfNn9BCafIbDMlZiXRFs1VF9lsf2LA/iaZCKZGs=
+			rA/sEdFFUgpUbTZg4BAfmTt68xvT5K5CDQOu2SF3PA4=
 			</data>
 		</dict>
 		<key>Headers/Balance.h</key>
@@ -108,35 +108,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GtVvSzIhVf+Hq0mutxDmesdNMvhAgOFYydTVSDkCV7Q=
+			W1oF2OePc6iDq0mTW1iysWSC51U7SiWKODH3i9vdh2Y=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			enDXXFrmVNjq9kK9BExVFdASmasVrtlw8tfIcaX1KD4=
+			2q73+sdSyxz6x4ClhBSUsqIWRRxZk3ljmbwBdjT2svY=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			th/zRbQ72cvup7FTAjjelPcpH82zW4+iuVigwwqns4Q=
+			Z8etz9xls6neJKHEBZp8MvdF8SWyMn/8o2UQ+CCyzuY=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			enDXXFrmVNjq9kK9BExVFdASmasVrtlw8tfIcaX1KD4=
+			2q73+sdSyxz6x4ClhBSUsqIWRRxZk3ljmbwBdjT2svY=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D+oI7cFn/ig0YI9pQ+OJ/F9P4DgO3/rcp2X7ChkjoF4=
+			XgBKNcGtU1tMFsCwTZKgaFkMD7UuXNLBcW2OO3nb2w0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -164,14 +164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			weUEo5td6AUi+NUJqE/MJVoGN2piN2/yxPNS5xmowAM=
+			gAOt/foPPiwVbplYDxaNi8R68KmtYqCn349M/YtHxmE=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pANTEofLOcK4nInU2WvR2kvG2iQncDugYr3FflljsLE=
+			JZpBH5XDsMJPRVuCfy6Ek4Ae/6VxvYDSrIAykC3058U=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/model0/analytics/coremldata.bin</key>
@@ -185,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+z82Kd75rKx3a5pHCwO8xfCtT8LWruLqIwacOgEXCyk=
+			EgnIax3xqIcxWDL0fLl6z9Pvy4Xnkm7lbzra7RaK+P8=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/model0/model.mil</key>

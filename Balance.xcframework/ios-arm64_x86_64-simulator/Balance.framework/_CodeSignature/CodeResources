@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Ibd/owuKehv90BVTe2/BMRdlBvY=
+		lvAzlg1Bmnb0bZ8C2BRFwBpfCbY=
 		</data>
 		<key>Headers/Balance-Swift.h</key>
 		<data>
-		VWuSWjgSFYpLOs1YmyenJcwT76o=
+		knY1yea2o43jPsbS2vgPYeNajHs=
 		</data>
 		<key>Headers/Balance.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/WRcqMxrOrLGytTQ1AD5vPHMUi4=
+		KUoNi5QnEEiGzBgAIfvHJQuJMpI=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		10RvJGMpXZrJnmk+iE3HNZiih9U=
+		8JiE9548QWd8D/P9sJPmT6a3v/E=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uOgiD0MOcoWfYX4ytLHQLB1JLew=
+		N9caDoL0D3vuMO0BLIMJnaR1+/s=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		uwr71I1a3OphvIjUGmV5A45XWsE=
+		6QlC40/yCS+s++MrGI5o9KYANjY=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uOgiD0MOcoWfYX4ytLHQLB1JLew=
+		N9caDoL0D3vuMO0BLIMJnaR1+/s=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lL+BGvX5qwhg/K+zJ1Q3z00C23w=
+		O3WfmgezeugnHy1mzuAR7OV5yvI=
 		</data>
 		<key>Modules/Balance.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		10RvJGMpXZrJnmk+iE3HNZiih9U=
+		8JiE9548QWd8D/P9sJPmT6a3v/E=
 		</data>
 		<key>Modules/Balance.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IVV1iNhQQB/B2XOKl9AkMm0f2Mc=
+		BBBZ8CXbk7MySYl//XBV20lAWTE=
 		</data>
 		<key>Modules/Balance.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		c5Dapr0F+BEJ5P9khGkkVTRUbq8=
+		6mI9xk/v38TwnOfI/trja1BRqmc=
 		</data>
 		<key>Modules/Balance.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IVV1iNhQQB/B2XOKl9AkMm0f2Mc=
+		BBBZ8CXbk7MySYl//XBV20lAWTE=
 		</data>
 		<key>Modules/Balance.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xRLefT+ckz2zhtWGqxIqpFbSjVE=
+		HgeoMx0AnTGEFejmpS0PEK2e7TY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>common_license.mlmodelc/coremldata.bin</key>
 		<data>
-		6SVGnbPa/K5ZqmMtl4F0fLOln84=
+		9GLQW9L6dbQ3Y0uv1KMqWt5rsn0=
 		</data>
 		<key>common_license.mlmodelc/metadata.json</key>
 		<data>
-		DrykOhpaofHObUuMBqkE3jQ5rF0=
+		vA7Y9QWCEGGmHZGhysQnIsnE8EM=
 		</data>
 		<key>common_license.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>common_license.mlmodelc/model0/coremldata.bin</key>
 		<data>
-		e9S8M9R9OLYZvPC2vHlWx4IuYfk=
+		XPsRu6aD1RT7I7FaLztDzDRgpDc=
 		</data>
 		<key>common_license.mlmodelc/model0/model.mil</key>
 		<data>
@@ -107,14 +107,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7GsAlYc7cwyRCHFo7mv5RDojfKixT01Ln8ABFKgLSJA=
+			3X+SPwYpWFXJYZaXI5fKegby0rot7Enq91dwT1pOnMI=
 			</data>
 		</dict>
 		<key>Headers/Balance-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n4pzkr4NiLcltRZd4DgVDeQbtl9BNAf/egmnGGmJQIY=
+			wpkzj8Psn+f2ZgWTlzVqehzKg44LxhKXNEsjBcpb6Vo=
 			</data>
 		</dict>
 		<key>Headers/Balance.h</key>
@@ -128,70 +128,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bDHYy0X4Tgt4RBRVJTo1PeEw+arjTZuq/ceakJXYGl0=
+			7CwinmPtiwRyn6TT7q4d+GmynrjtnjNckaVr5OPzzRY=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pxhBXm5tfYjmKcPgv4z4pDu3IRfdkJntk6xLO1z18C0=
+			XWKoqjwmE6zmLTGt1pKvFKnPxyDttLqEHIavFKvJ368=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			70C1TGHKlA3anZzKyYnE+BuDUWfCxsQKGt3Buf6xUVo=
+			3/o9Xyet+c8yDscnfRYFT+rU8O1k22B0qetwi4Jh59g=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pxhBXm5tfYjmKcPgv4z4pDu3IRfdkJntk6xLO1z18C0=
+			XWKoqjwmE6zmLTGt1pKvFKnPxyDttLqEHIavFKvJ368=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DNUgzeRvYR+YHbXDffq1HvV1Is2Mc0WtpVUZrwyQieM=
+			Xl6FJ9YFjBQciNV9HZbnHWJDo5G4rWHVC7PQhWG74IM=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bDHYy0X4Tgt4RBRVJTo1PeEw+arjTZuq/ceakJXYGl0=
+			7CwinmPtiwRyn6TT7q4d+GmynrjtnjNckaVr5OPzzRY=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Cv+iFvmFCU6JJCMcQJ38jq34CaylIYn5u/Bcl501Zk=
+			/nhYWxCyDeroXJsfM3h/w+JTMwoA/9L+wFWC1pM/3wg=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d1qFZKXhWPP/rBRo5p9ztQRFV+kd9DIAyb0ChDQthpY=
+			B1EJm5jm+8AlmP1dqgD7rw5kOyL/N7CqandunTEpRJw=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Cv+iFvmFCU6JJCMcQJ38jq34CaylIYn5u/Bcl501Zk=
+			/nhYWxCyDeroXJsfM3h/w+JTMwoA/9L+wFWC1pM/3wg=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eiLwng6jJksL2JMCfHASHk/2+9vzhfJto04P5QYvyCQ=
+			pwxEz3CYBFqsCPGcWvt2nV4uNf2oItLhhK20ch6Y4QI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -219,14 +219,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QGEiG5E9zr8Bm3OVTx2g7W0bF16a8mI59aXJVQ3M10w=
+			T13o74K91vr+mc+OHK4pQyPHmxnZ04I02Rlaohio8AQ=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JZpBH5XDsMJPRVuCfy6Ek4Ae/6VxvYDSrIAykC3058U=
+			nPqNYsU3WYDhUxnbW9Z2SssU6Li+VooFJEJIJfsE+58=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/model0/analytics/coremldata.bin</key>
@@ -240,7 +240,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D3nIMKS6Zuoiuzme9pGD3ur8d7IgPkonUTWsO7Z9dCo=
+			EgnIax3xqIcxWDL0fLl6z9Pvy4Xnkm7lbzra7RaK+P8=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/model0/model.mil</key>
