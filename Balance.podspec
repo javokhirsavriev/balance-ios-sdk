@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "Balance"
-  spec.version            = "1.1.9"
+  spec.version            = "1.2.0"
   spec.platform = :ios, '14.0'
   spec.ios.deployment_target = '14.0'
   spec.summary            = "Balance Framework"
