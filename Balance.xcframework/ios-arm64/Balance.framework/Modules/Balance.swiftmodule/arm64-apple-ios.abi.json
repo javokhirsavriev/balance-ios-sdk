@@ -15,313 +15,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "BalanceStepSettings",
-        "printedName": "BalanceStepSettings",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "current",
-            "printedName": "current",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(py)current",
-            "mangledName": "$s7Balance0A12StepSettingsC7currentSivp",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(im)current",
-                "mangledName": "$s7Balance0A12StepSettingsC7currentSivg",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(im)setCurrent:",
-                "mangledName": "$s7Balance0A12StepSettingsC7currentSivs",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7Balance0A12StepSettingsC7currentSivM",
-                "mangledName": "$s7Balance0A12StepSettingsC7currentSivM",
-                "moduleName": "Balance",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "total",
-            "printedName": "total",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(py)total",
-            "mangledName": "$s7Balance0A12StepSettingsC5totalSivp",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(im)total",
-                "mangledName": "$s7Balance0A12StepSettingsC5totalSivg",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(im)setTotal:",
-                "mangledName": "$s7Balance0A12StepSettingsC5totalSivs",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7Balance0A12StepSettingsC5totalSivM",
-                "mangledName": "$s7Balance0A12StepSettingsC5totalSivM",
-                "moduleName": "Balance",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BalanceStepSettings",
-                "printedName": "Balance.BalanceStepSettings",
-                "usr": "c:@M@Balance@objc(cs)BalanceStepSettings"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(im)init",
-            "mangledName": "$s7Balance0A12StepSettingsCACycfc",
-            "moduleName": "Balance",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@Balance@objc(cs)BalanceStepSettings",
-        "mangledName": "$s7Balance0A12StepSettingsC",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -536,238 +229,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "BalancePresentationStyle",
-        "printedName": "BalancePresentationStyle",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "Full",
-            "printedName": "Full",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Balance.BalancePresentationStyle.Type) -> Balance.BalancePresentationStyle",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BalancePresentationStyle",
-                    "printedName": "Balance.BalancePresentationStyle",
-                    "usr": "c:@M@Balance@E@BalancePresentationStyle"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Balance.BalancePresentationStyle.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BalancePresentationStyle",
-                        "printedName": "Balance.BalancePresentationStyle",
-                        "usr": "c:@M@Balance@E@BalancePresentationStyle"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@Balance@E@BalancePresentationStyle@BalancePresentationStyleFull",
-            "mangledName": "$s7Balance0A17PresentationStyleO4FullyA2CmF",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 0
-          },
-          {
-            "kind": "Var",
-            "name": "Sheet",
-            "printedName": "Sheet",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Balance.BalancePresentationStyle.Type) -> Balance.BalancePresentationStyle",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BalancePresentationStyle",
-                    "printedName": "Balance.BalancePresentationStyle",
-                    "usr": "c:@M@Balance@E@BalancePresentationStyle"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Balance.BalancePresentationStyle.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BalancePresentationStyle",
-                        "printedName": "Balance.BalancePresentationStyle",
-                        "usr": "c:@M@Balance@E@BalancePresentationStyle"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@Balance@E@BalancePresentationStyle@BalancePresentationStyleSheet",
-            "mangledName": "$s7Balance0A17PresentationStyleO5SheetyA2CmF",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 1
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Balance.BalancePresentationStyle?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BalancePresentationStyle",
-                    "printedName": "Balance.BalancePresentationStyle",
-                    "usr": "c:@M@Balance@E@BalancePresentationStyle"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7Balance0A17PresentationStyleO8rawValueACSgSi_tcfc",
-            "mangledName": "$s7Balance0A17PresentationStyleO8rawValueACSgSi_tcfc",
-            "moduleName": "Balance",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7Balance0A17PresentationStyleO8rawValueSivp",
-            "mangledName": "$s7Balance0A17PresentationStyleO8rawValueSivp",
-            "moduleName": "Balance",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7Balance0A17PresentationStyleO8rawValueSivg",
-                "mangledName": "$s7Balance0A17PresentationStyleO8rawValueSivg",
-                "moduleName": "Balance",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "c:@M@Balance@E@BalancePresentationStyle",
-        "mangledName": "$s7Balance0A17PresentationStyleO",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "enumRawTypeName": "Int",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "BalanceClientDelegate",
         "printedName": "BalanceClientDelegate",
         "children": [
@@ -880,1173 +341,6 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BalanceAppearance",
-        "printedName": "BalanceAppearance",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "colorPrimary",
-            "printedName": "colorPrimary",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIColor?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(py)colorPrimary",
-            "mangledName": "$s7Balance0A10AppearanceC12colorPrimarySo7UIColorCSgvp",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)colorPrimary",
-                "mangledName": "$s7Balance0A10AppearanceC12colorPrimarySo7UIColorCSgvg",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)setColorPrimary:",
-                "mangledName": "$s7Balance0A10AppearanceC12colorPrimarySo7UIColorCSgvs",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7Balance0A10AppearanceC12colorPrimarySo7UIColorCSgvM",
-                "mangledName": "$s7Balance0A10AppearanceC12colorPrimarySo7UIColorCSgvM",
-                "moduleName": "Balance",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "colorError",
-            "printedName": "colorError",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIColor?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(py)colorError",
-            "mangledName": "$s7Balance0A10AppearanceC10colorErrorSo7UIColorCSgvp",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)colorError",
-                "mangledName": "$s7Balance0A10AppearanceC10colorErrorSo7UIColorCSgvg",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)setColorError:",
-                "mangledName": "$s7Balance0A10AppearanceC10colorErrorSo7UIColorCSgvs",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7Balance0A10AppearanceC10colorErrorSo7UIColorCSgvM",
-                "mangledName": "$s7Balance0A10AppearanceC10colorErrorSo7UIColorCSgvM",
-                "moduleName": "Balance",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "colorBackground",
-            "printedName": "colorBackground",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIColor?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(py)colorBackground",
-            "mangledName": "$s7Balance0A10AppearanceC15colorBackgroundSo7UIColorCSgvp",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)colorBackground",
-                "mangledName": "$s7Balance0A10AppearanceC15colorBackgroundSo7UIColorCSgvg",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)setColorBackground:",
-                "mangledName": "$s7Balance0A10AppearanceC15colorBackgroundSo7UIColorCSgvs",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7Balance0A10AppearanceC15colorBackgroundSo7UIColorCSgvM",
-                "mangledName": "$s7Balance0A10AppearanceC15colorBackgroundSo7UIColorCSgvM",
-                "moduleName": "Balance",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "colorForeground",
-            "printedName": "colorForeground",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIColor?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(py)colorForeground",
-            "mangledName": "$s7Balance0A10AppearanceC15colorForegroundSo7UIColorCSgvp",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)colorForeground",
-                "mangledName": "$s7Balance0A10AppearanceC15colorForegroundSo7UIColorCSgvg",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)setColorForeground:",
-                "mangledName": "$s7Balance0A10AppearanceC15colorForegroundSo7UIColorCSgvs",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7Balance0A10AppearanceC15colorForegroundSo7UIColorCSgvM",
-                "mangledName": "$s7Balance0A10AppearanceC15colorForegroundSo7UIColorCSgvM",
-                "moduleName": "Balance",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "colorOutline",
-            "printedName": "colorOutline",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIColor?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(py)colorOutline",
-            "mangledName": "$s7Balance0A10AppearanceC12colorOutlineSo7UIColorCSgvp",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)colorOutline",
-                "mangledName": "$s7Balance0A10AppearanceC12colorOutlineSo7UIColorCSgvg",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)setColorOutline:",
-                "mangledName": "$s7Balance0A10AppearanceC12colorOutlineSo7UIColorCSgvs",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7Balance0A10AppearanceC12colorOutlineSo7UIColorCSgvM",
-                "mangledName": "$s7Balance0A10AppearanceC12colorOutlineSo7UIColorCSgvM",
-                "moduleName": "Balance",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "colorDivider",
-            "printedName": "colorDivider",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIColor?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(py)colorDivider",
-            "mangledName": "$s7Balance0A10AppearanceC12colorDividerSo7UIColorCSgvp",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)colorDivider",
-                "mangledName": "$s7Balance0A10AppearanceC12colorDividerSo7UIColorCSgvg",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)setColorDivider:",
-                "mangledName": "$s7Balance0A10AppearanceC12colorDividerSo7UIColorCSgvs",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7Balance0A10AppearanceC12colorDividerSo7UIColorCSgvM",
-                "mangledName": "$s7Balance0A10AppearanceC12colorDividerSo7UIColorCSgvM",
-                "moduleName": "Balance",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BalanceAppearance",
-                "printedName": "Balance.BalanceAppearance",
-                "usr": "c:@M@Balance@objc(cs)BalanceAppearance"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)init",
-            "mangledName": "$s7Balance0A10AppearanceCACycfc",
-            "moduleName": "Balance",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@Balance@objc(cs)BalanceAppearance",
-        "mangledName": "$s7Balance0A10AppearanceC",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BalanceException",
-        "printedName": "BalanceException",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "message",
-            "printedName": "message",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@Balance@objc(cs)BalanceException(py)message",
-            "mangledName": "$s7Balance0A9ExceptionC7messageSSvp",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceException(im)message",
-                "mangledName": "$s7Balance0A9ExceptionC7messageSSvg",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceException(im)setMessage:",
-                "mangledName": "$s7Balance0A9ExceptionC7messageSSvs",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7Balance0A9ExceptionC7messageSSvM",
-                "mangledName": "$s7Balance0A9ExceptionC7messageSSvM",
-                "moduleName": "Balance",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "code",
-            "printedName": "code",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@Balance@objc(cs)BalanceException(py)code",
-            "mangledName": "$s7Balance0A9ExceptionC4codeSivp",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceException(im)code",
-                "mangledName": "$s7Balance0A9ExceptionC4codeSivg",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@Balance@objc(cs)BalanceException(im)setCode:",
-                "mangledName": "$s7Balance0A9ExceptionC4codeSivs",
-                "moduleName": "Balance",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7Balance0A9ExceptionC4codeSivM",
-                "mangledName": "$s7Balance0A9ExceptionC4codeSivM",
-                "moduleName": "Balance",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(message:code:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BalanceException",
-                "printedName": "Balance.BalanceException",
-                "usr": "c:@M@Balance@objc(cs)BalanceException"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7Balance0A9ExceptionC7message4codeACSS_Sitcfc",
-            "mangledName": "$s7Balance0A9ExceptionC7message4codeACSS_Sitcfc",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BalanceException",
-                "printedName": "Balance.BalanceException",
-                "usr": "c:@M@Balance@objc(cs)BalanceException"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Balance@objc(cs)BalanceException(im)init",
-            "mangledName": "$s7Balance0A9ExceptionCACycfc",
-            "moduleName": "Balance",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@Balance@objc(cs)BalanceException",
-        "mangledName": "$s7Balance0A9ExceptionC",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -2245,6 +539,99 @@
                 "declKind": "Accessor",
                 "usr": "s:7Balance0A6ConfigC9entryModeAA0a5EntryD0OvM",
                 "mangledName": "$s7Balance0A6ConfigC9entryModeAA0a5EntryD0OvM",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cameraSelector",
+            "printedName": "cameraSelector",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BalanceCameraSelector",
+                "printedName": "Balance.BalanceCameraSelector",
+                "usr": "c:@M@Balance@E@BalanceCameraSelector"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Balance@objc(cs)BalanceConfig(py)cameraSelector",
+            "mangledName": "$s7Balance0A6ConfigC14cameraSelectorAA0a6CameraD0Ovp",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceCameraSelector",
+                    "printedName": "Balance.BalanceCameraSelector",
+                    "usr": "c:@M@Balance@E@BalanceCameraSelector"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceConfig(im)cameraSelector",
+                "mangledName": "$s7Balance0A6ConfigC14cameraSelectorAA0a6CameraD0Ovg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceCameraSelector",
+                    "printedName": "Balance.BalanceCameraSelector",
+                    "usr": "c:@M@Balance@E@BalanceCameraSelector"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceConfig(im)setCameraSelector:",
+                "mangledName": "$s7Balance0A6ConfigC14cameraSelectorAA0a6CameraD0Ovs",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A6ConfigC14cameraSelectorAA0a6CameraD0OvM",
+                "mangledName": "$s7Balance0A6ConfigC14cameraSelectorAA0a6CameraD0OvM",
                 "moduleName": "Balance",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2951,6 +1338,99 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "distanceFromScreen",
+            "printedName": "distanceFromScreen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Balance@objc(cs)BalanceConfig(py)distanceFromScreen",
+            "mangledName": "$s7Balance0A6ConfigC18distanceFromScreen12CoreGraphics7CGFloatVvp",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceConfig(im)distanceFromScreen",
+                "mangledName": "$s7Balance0A6ConfigC18distanceFromScreen12CoreGraphics7CGFloatVvg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceConfig(im)setDistanceFromScreen:",
+                "mangledName": "$s7Balance0A6ConfigC18distanceFromScreen12CoreGraphics7CGFloatVvs",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A6ConfigC18distanceFromScreen14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s7Balance0A6ConfigC18distanceFromScreen12CoreGraphics7CGFloatVvM",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -3372,12 +1852,275 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Balance",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BalanceLocale",
+        "printedName": "BalanceLocale",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Kyrgyz",
+            "printedName": "Kyrgyz",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Balance.BalanceLocale.Type) -> Balance.BalanceLocale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceLocale",
+                    "printedName": "Balance.BalanceLocale",
+                    "usr": "c:@M@Balance@E@BalanceLocale"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Balance.BalanceLocale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BalanceLocale",
+                        "printedName": "Balance.BalanceLocale",
+                        "usr": "c:@M@Balance@E@BalanceLocale"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Balance@E@BalanceLocale@BalanceLocaleKyrgyz",
+            "mangledName": "$s7Balance0A6LocaleO6KyrgyzyA2CmF",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "English",
+            "printedName": "English",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Balance.BalanceLocale.Type) -> Balance.BalanceLocale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceLocale",
+                    "printedName": "Balance.BalanceLocale",
+                    "usr": "c:@M@Balance@E@BalanceLocale"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Balance.BalanceLocale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BalanceLocale",
+                        "printedName": "Balance.BalanceLocale",
+                        "usr": "c:@M@Balance@E@BalanceLocale"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Balance@E@BalanceLocale@BalanceLocaleEnglish",
+            "mangledName": "$s7Balance0A6LocaleO7EnglishyA2CmF",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "Russian",
+            "printedName": "Russian",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Balance.BalanceLocale.Type) -> Balance.BalanceLocale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceLocale",
+                    "printedName": "Balance.BalanceLocale",
+                    "usr": "c:@M@Balance@E@BalanceLocale"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Balance.BalanceLocale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BalanceLocale",
+                        "printedName": "Balance.BalanceLocale",
+                        "usr": "c:@M@Balance@E@BalanceLocale"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Balance@E@BalanceLocale@BalanceLocaleRussian",
+            "mangledName": "$s7Balance0A6LocaleO7RussianyA2CmF",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Balance.BalanceLocale?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceLocale",
+                    "printedName": "Balance.BalanceLocale",
+                    "usr": "c:@M@Balance@E@BalanceLocale"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Balance0A6LocaleO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7Balance0A6LocaleO8rawValueACSgSi_tcfc",
+            "moduleName": "Balance",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Balance0A6LocaleO8rawValueSivp",
+            "mangledName": "$s7Balance0A6LocaleO8rawValueSivp",
+            "moduleName": "Balance",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A6LocaleO8rawValueSivg",
+                "mangledName": "$s7Balance0A6LocaleO8rawValueSivg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@Balance@E@BalanceLocale",
+        "mangledName": "$s7Balance0A6LocaleO",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
         ]
       },
       {
@@ -3391,438 +2134,330 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "BalanceException",
+        "printedName": "BalanceException",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Balance@objc(cs)BalanceException(py)message",
+            "mangledName": "$s7Balance0A9ExceptionC7messageSSvp",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceException(im)message",
+                "mangledName": "$s7Balance0A9ExceptionC7messageSSvg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceException(im)setMessage:",
+                "mangledName": "$s7Balance0A9ExceptionC7messageSSvs",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A9ExceptionC7messageSSvM",
+                "mangledName": "$s7Balance0A9ExceptionC7messageSSvM",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Balance@objc(cs)BalanceException(py)code",
+            "mangledName": "$s7Balance0A9ExceptionC4codeSivp",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceException(im)code",
+                "mangledName": "$s7Balance0A9ExceptionC4codeSivg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceException(im)setCode:",
+                "mangledName": "$s7Balance0A9ExceptionC4codeSivs",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A9ExceptionC4codeSivM",
+                "mangledName": "$s7Balance0A9ExceptionC4codeSivM",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(message:code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BalanceException",
+                "printedName": "Balance.BalanceException",
+                "usr": "c:@M@Balance@objc(cs)BalanceException"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Balance0A9ExceptionC7message4codeACSS_Sitcfc",
+            "mangledName": "$s7Balance0A9ExceptionC7message4codeACSS_Sitcfc",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BalanceException",
+                "printedName": "Balance.BalanceException",
+                "usr": "c:@M@Balance@objc(cs)BalanceException"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Balance@objc(cs)BalanceException(im)init",
+            "mangledName": "$s7Balance0A9ExceptionCACycfc",
+            "moduleName": "Balance",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Balance@objc(cs)BalanceException",
+        "mangledName": "$s7Balance0A9ExceptionC",
         "moduleName": "Balance",
         "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "DeviceKit",
-        "printedName": "DeviceKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreImage.CIFilterBuiltins",
-        "printedName": "CoreImage.CIFilterBuiltins",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "DeviceKit",
-        "printedName": "DeviceKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "Balance"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Balance",
-        "declAttributes": [
-          "RawDocComment"
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -6293,35 +4928,352 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "BalanceLocale",
-        "printedName": "BalanceLocale",
+        "name": "BalanceStepSettings",
+        "printedName": "BalanceStepSettings",
         "children": [
           {
             "kind": "Var",
-            "name": "Kyrgyz",
-            "printedName": "Kyrgyz",
+            "name": "current",
+            "printedName": "current",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(py)current",
+            "mangledName": "$s7Balance0A12StepSettingsC7currentSivp",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(im)current",
+                "mangledName": "$s7Balance0A12StepSettingsC7currentSivg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(im)setCurrent:",
+                "mangledName": "$s7Balance0A12StepSettingsC7currentSivs",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A12StepSettingsC7currentSivM",
+                "mangledName": "$s7Balance0A12StepSettingsC7currentSivM",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "total",
+            "printedName": "total",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(py)total",
+            "mangledName": "$s7Balance0A12StepSettingsC5totalSivp",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(im)total",
+                "mangledName": "$s7Balance0A12StepSettingsC5totalSivg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(im)setTotal:",
+                "mangledName": "$s7Balance0A12StepSettingsC5totalSivs",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A12StepSettingsC5totalSivM",
+                "mangledName": "$s7Balance0A12StepSettingsC5totalSivM",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BalanceStepSettings",
+                "printedName": "Balance.BalanceStepSettings",
+                "usr": "c:@M@Balance@objc(cs)BalanceStepSettings"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Balance@objc(cs)BalanceStepSettings(im)init",
+            "mangledName": "$s7Balance0A12StepSettingsCACycfc",
+            "moduleName": "Balance",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Balance@objc(cs)BalanceStepSettings",
+        "mangledName": "$s7Balance0A12StepSettingsC",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CommonCameraSelector",
+        "printedName": "CommonCameraSelector",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Front",
+            "printedName": "Front",
             "children": [
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Balance.BalanceLocale.Type) -> Balance.BalanceLocale",
+                "printedName": "(Balance.CommonCameraSelector.Type) -> Balance.CommonCameraSelector",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "BalanceLocale",
-                    "printedName": "Balance.BalanceLocale",
-                    "usr": "c:@M@Balance@E@BalanceLocale"
+                    "name": "CommonCameraSelector",
+                    "printedName": "Balance.CommonCameraSelector",
+                    "usr": "c:@M@Balance@E@CommonCameraSelector"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "Balance.BalanceLocale.Type",
+                    "printedName": "Balance.CommonCameraSelector.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "BalanceLocale",
-                        "printedName": "Balance.BalanceLocale",
-                        "usr": "c:@M@Balance@E@BalanceLocale"
+                        "name": "CommonCameraSelector",
+                        "printedName": "Balance.CommonCameraSelector",
+                        "usr": "c:@M@Balance@E@CommonCameraSelector"
                       }
                     ]
                   }
@@ -6329,8 +5281,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@Balance@E@BalanceLocale@BalanceLocaleKyrgyz",
-            "mangledName": "$s7Balance0A6LocaleO6KyrgyzyA2CmF",
+            "usr": "c:@M@Balance@E@CommonCameraSelector@CommonCameraSelectorFront",
+            "mangledName": "$s7Balance20CommonCameraSelectorO5FrontyA2CmF",
             "moduleName": "Balance",
             "declAttributes": [
               "ObjC"
@@ -6339,30 +5291,30 @@
           },
           {
             "kind": "Var",
-            "name": "English",
-            "printedName": "English",
+            "name": "Back",
+            "printedName": "Back",
             "children": [
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Balance.BalanceLocale.Type) -> Balance.BalanceLocale",
+                "printedName": "(Balance.CommonCameraSelector.Type) -> Balance.CommonCameraSelector",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "BalanceLocale",
-                    "printedName": "Balance.BalanceLocale",
-                    "usr": "c:@M@Balance@E@BalanceLocale"
+                    "name": "CommonCameraSelector",
+                    "printedName": "Balance.CommonCameraSelector",
+                    "usr": "c:@M@Balance@E@CommonCameraSelector"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "Balance.BalanceLocale.Type",
+                    "printedName": "Balance.CommonCameraSelector.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "BalanceLocale",
-                        "printedName": "Balance.BalanceLocale",
-                        "usr": "c:@M@Balance@E@BalanceLocale"
+                        "name": "CommonCameraSelector",
+                        "printedName": "Balance.CommonCameraSelector",
+                        "usr": "c:@M@Balance@E@CommonCameraSelector"
                       }
                     ]
                   }
@@ -6370,54 +5322,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@Balance@E@BalanceLocale@BalanceLocaleEnglish",
-            "mangledName": "$s7Balance0A6LocaleO7EnglishyA2CmF",
+            "usr": "c:@M@Balance@E@CommonCameraSelector@CommonCameraSelectorBack",
+            "mangledName": "$s7Balance20CommonCameraSelectorO4BackyA2CmF",
             "moduleName": "Balance",
             "declAttributes": [
               "ObjC"
             ],
             "fixedbinaryorder": 1
-          },
-          {
-            "kind": "Var",
-            "name": "Russian",
-            "printedName": "Russian",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Balance.BalanceLocale.Type) -> Balance.BalanceLocale",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BalanceLocale",
-                    "printedName": "Balance.BalanceLocale",
-                    "usr": "c:@M@Balance@E@BalanceLocale"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Balance.BalanceLocale.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BalanceLocale",
-                        "printedName": "Balance.BalanceLocale",
-                        "usr": "c:@M@Balance@E@BalanceLocale"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@Balance@E@BalanceLocale@BalanceLocaleRussian",
-            "mangledName": "$s7Balance0A6LocaleO7RussianyA2CmF",
-            "moduleName": "Balance",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 2
           },
           {
             "kind": "Constructor",
@@ -6427,13 +5338,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Balance.BalanceLocale?",
+                "printedName": "Balance.CommonCameraSelector?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "BalanceLocale",
-                    "printedName": "Balance.BalanceLocale",
-                    "usr": "c:@M@Balance@E@BalanceLocale"
+                    "name": "CommonCameraSelector",
+                    "printedName": "Balance.CommonCameraSelector",
+                    "usr": "c:@M@Balance@E@CommonCameraSelector"
                   }
                 ],
                 "usr": "s:Sq"
@@ -6446,8 +5357,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Balance0A6LocaleO8rawValueACSgSi_tcfc",
-            "mangledName": "$s7Balance0A6LocaleO8rawValueACSgSi_tcfc",
+            "usr": "s:7Balance20CommonCameraSelectorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7Balance20CommonCameraSelectorO8rawValueACSgSi_tcfc",
             "moduleName": "Balance",
             "implicit": true,
             "init_kind": "Designated"
@@ -6465,8 +5376,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7Balance0A6LocaleO8rawValueSivp",
-            "mangledName": "$s7Balance0A6LocaleO8rawValueSivp",
+            "usr": "s:7Balance20CommonCameraSelectorO8rawValueSivp",
+            "mangledName": "$s7Balance20CommonCameraSelectorO8rawValueSivp",
             "moduleName": "Balance",
             "implicit": true,
             "accessors": [
@@ -6483,8 +5394,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7Balance0A6LocaleO8rawValueSivg",
-                "mangledName": "$s7Balance0A6LocaleO8rawValueSivg",
+                "usr": "s:7Balance20CommonCameraSelectorO8rawValueSivg",
+                "mangledName": "$s7Balance20CommonCameraSelectorO8rawValueSivg",
                 "moduleName": "Balance",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6493,8 +5404,1747 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "c:@M@Balance@E@BalanceLocale",
-        "mangledName": "$s7Balance0A6LocaleO",
+        "usr": "c:@M@Balance@E@CommonCameraSelector",
+        "mangledName": "$s7Balance20CommonCameraSelectorO",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "DeviceKit",
+        "printedName": "DeviceKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage.CIFilterBuiltins",
+        "printedName": "CoreImage.CIFilterBuiltins",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "DeviceKit",
+        "printedName": "DeviceKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BalanceCameraSelector",
+        "printedName": "BalanceCameraSelector",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Front",
+            "printedName": "Front",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Balance.BalanceCameraSelector.Type) -> Balance.BalanceCameraSelector",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceCameraSelector",
+                    "printedName": "Balance.BalanceCameraSelector",
+                    "usr": "c:@M@Balance@E@BalanceCameraSelector"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Balance.BalanceCameraSelector.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BalanceCameraSelector",
+                        "printedName": "Balance.BalanceCameraSelector",
+                        "usr": "c:@M@Balance@E@BalanceCameraSelector"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Balance@E@BalanceCameraSelector@BalanceCameraSelectorFront",
+            "mangledName": "$s7Balance0A14CameraSelectorO5FrontyA2CmF",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "Back",
+            "printedName": "Back",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Balance.BalanceCameraSelector.Type) -> Balance.BalanceCameraSelector",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceCameraSelector",
+                    "printedName": "Balance.BalanceCameraSelector",
+                    "usr": "c:@M@Balance@E@BalanceCameraSelector"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Balance.BalanceCameraSelector.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BalanceCameraSelector",
+                        "printedName": "Balance.BalanceCameraSelector",
+                        "usr": "c:@M@Balance@E@BalanceCameraSelector"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Balance@E@BalanceCameraSelector@BalanceCameraSelectorBack",
+            "mangledName": "$s7Balance0A14CameraSelectorO4BackyA2CmF",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Balance.BalanceCameraSelector?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceCameraSelector",
+                    "printedName": "Balance.BalanceCameraSelector",
+                    "usr": "c:@M@Balance@E@BalanceCameraSelector"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Balance0A14CameraSelectorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7Balance0A14CameraSelectorO8rawValueACSgSi_tcfc",
+            "moduleName": "Balance",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Balance0A14CameraSelectorO8rawValueSivp",
+            "mangledName": "$s7Balance0A14CameraSelectorO8rawValueSivp",
+            "moduleName": "Balance",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A14CameraSelectorO8rawValueSivg",
+                "mangledName": "$s7Balance0A14CameraSelectorO8rawValueSivg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@Balance@E@BalanceCameraSelector",
+        "mangledName": "$s7Balance0A14CameraSelectorO",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Balance"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BalanceAppearance",
+        "printedName": "BalanceAppearance",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "colorPrimary",
+            "printedName": "colorPrimary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(py)colorPrimary",
+            "mangledName": "$s7Balance0A10AppearanceC12colorPrimarySo7UIColorCSgvp",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)colorPrimary",
+                "mangledName": "$s7Balance0A10AppearanceC12colorPrimarySo7UIColorCSgvg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)setColorPrimary:",
+                "mangledName": "$s7Balance0A10AppearanceC12colorPrimarySo7UIColorCSgvs",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A10AppearanceC12colorPrimarySo7UIColorCSgvM",
+                "mangledName": "$s7Balance0A10AppearanceC12colorPrimarySo7UIColorCSgvM",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorError",
+            "printedName": "colorError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(py)colorError",
+            "mangledName": "$s7Balance0A10AppearanceC10colorErrorSo7UIColorCSgvp",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)colorError",
+                "mangledName": "$s7Balance0A10AppearanceC10colorErrorSo7UIColorCSgvg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)setColorError:",
+                "mangledName": "$s7Balance0A10AppearanceC10colorErrorSo7UIColorCSgvs",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A10AppearanceC10colorErrorSo7UIColorCSgvM",
+                "mangledName": "$s7Balance0A10AppearanceC10colorErrorSo7UIColorCSgvM",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorBackground",
+            "printedName": "colorBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(py)colorBackground",
+            "mangledName": "$s7Balance0A10AppearanceC15colorBackgroundSo7UIColorCSgvp",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)colorBackground",
+                "mangledName": "$s7Balance0A10AppearanceC15colorBackgroundSo7UIColorCSgvg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)setColorBackground:",
+                "mangledName": "$s7Balance0A10AppearanceC15colorBackgroundSo7UIColorCSgvs",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A10AppearanceC15colorBackgroundSo7UIColorCSgvM",
+                "mangledName": "$s7Balance0A10AppearanceC15colorBackgroundSo7UIColorCSgvM",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorForeground",
+            "printedName": "colorForeground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(py)colorForeground",
+            "mangledName": "$s7Balance0A10AppearanceC15colorForegroundSo7UIColorCSgvp",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)colorForeground",
+                "mangledName": "$s7Balance0A10AppearanceC15colorForegroundSo7UIColorCSgvg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)setColorForeground:",
+                "mangledName": "$s7Balance0A10AppearanceC15colorForegroundSo7UIColorCSgvs",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A10AppearanceC15colorForegroundSo7UIColorCSgvM",
+                "mangledName": "$s7Balance0A10AppearanceC15colorForegroundSo7UIColorCSgvM",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorOutline",
+            "printedName": "colorOutline",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(py)colorOutline",
+            "mangledName": "$s7Balance0A10AppearanceC12colorOutlineSo7UIColorCSgvp",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)colorOutline",
+                "mangledName": "$s7Balance0A10AppearanceC12colorOutlineSo7UIColorCSgvg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)setColorOutline:",
+                "mangledName": "$s7Balance0A10AppearanceC12colorOutlineSo7UIColorCSgvs",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A10AppearanceC12colorOutlineSo7UIColorCSgvM",
+                "mangledName": "$s7Balance0A10AppearanceC12colorOutlineSo7UIColorCSgvM",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorDivider",
+            "printedName": "colorDivider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(py)colorDivider",
+            "mangledName": "$s7Balance0A10AppearanceC12colorDividerSo7UIColorCSgvp",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)colorDivider",
+                "mangledName": "$s7Balance0A10AppearanceC12colorDividerSo7UIColorCSgvg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)setColorDivider:",
+                "mangledName": "$s7Balance0A10AppearanceC12colorDividerSo7UIColorCSgvs",
+                "moduleName": "Balance",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A10AppearanceC12colorDividerSo7UIColorCSgvM",
+                "mangledName": "$s7Balance0A10AppearanceC12colorDividerSo7UIColorCSgvM",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BalanceAppearance",
+                "printedName": "Balance.BalanceAppearance",
+                "usr": "c:@M@Balance@objc(cs)BalanceAppearance"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Balance@objc(cs)BalanceAppearance(im)init",
+            "mangledName": "$s7Balance0A10AppearanceCACycfc",
+            "moduleName": "Balance",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Balance@objc(cs)BalanceAppearance",
+        "mangledName": "$s7Balance0A10AppearanceC",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Balance",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BalancePresentationStyle",
+        "printedName": "BalancePresentationStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Full",
+            "printedName": "Full",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Balance.BalancePresentationStyle.Type) -> Balance.BalancePresentationStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalancePresentationStyle",
+                    "printedName": "Balance.BalancePresentationStyle",
+                    "usr": "c:@M@Balance@E@BalancePresentationStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Balance.BalancePresentationStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BalancePresentationStyle",
+                        "printedName": "Balance.BalancePresentationStyle",
+                        "usr": "c:@M@Balance@E@BalancePresentationStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Balance@E@BalancePresentationStyle@BalancePresentationStyleFull",
+            "mangledName": "$s7Balance0A17PresentationStyleO4FullyA2CmF",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "Sheet",
+            "printedName": "Sheet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Balance.BalancePresentationStyle.Type) -> Balance.BalancePresentationStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalancePresentationStyle",
+                    "printedName": "Balance.BalancePresentationStyle",
+                    "usr": "c:@M@Balance@E@BalancePresentationStyle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Balance.BalancePresentationStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BalancePresentationStyle",
+                        "printedName": "Balance.BalancePresentationStyle",
+                        "usr": "c:@M@Balance@E@BalancePresentationStyle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Balance@E@BalancePresentationStyle@BalancePresentationStyleSheet",
+            "mangledName": "$s7Balance0A17PresentationStyleO5SheetyA2CmF",
+            "moduleName": "Balance",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Balance.BalancePresentationStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalancePresentationStyle",
+                    "printedName": "Balance.BalancePresentationStyle",
+                    "usr": "c:@M@Balance@E@BalancePresentationStyle"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Balance0A17PresentationStyleO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7Balance0A17PresentationStyleO8rawValueACSgSi_tcfc",
+            "moduleName": "Balance",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Balance0A17PresentationStyleO8rawValueSivp",
+            "mangledName": "$s7Balance0A17PresentationStyleO8rawValueSivp",
+            "moduleName": "Balance",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Balance0A17PresentationStyleO8rawValueSivg",
+                "mangledName": "$s7Balance0A17PresentationStyleO8rawValueSivg",
+                "moduleName": "Balance",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@Balance@E@BalancePresentationStyle",
+        "mangledName": "$s7Balance0A17PresentationStyleO",
         "moduleName": "Balance",
         "declAttributes": [
           "AccessControl",
@@ -6744,102 +7394,165 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceStepSettings.swift",
-      "kind": "IntegerLiteral",
-      "offset": 176,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceStepSettings.swift",
-      "kind": "IntegerLiteral",
-      "offset": 212,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/BalanceClient.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Client.swift",
       "kind": "BooleanLiteral",
       "offset": 601,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/BalanceClient.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Client.swift",
       "kind": "BooleanLiteral",
       "offset": 637,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/BalanceClient.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Client.swift",
       "kind": "BooleanLiteral",
       "offset": 7041,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePresentationStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 160,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePresentationStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 171,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/BalanceConfig.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 548,
+      "offset": 616,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/BalanceConfig.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 620,
+      "offset": 688,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/BalanceConfig.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Config.swift",
       "kind": "FloatLiteral",
-      "offset": 679,
+      "offset": 747,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Config.swift",
+      "kind": "FloatLiteral",
+      "offset": 802,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/EntryMode.swift",
       "kind": "IntegerLiteral",
       "offset": 149,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/EntryMode.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/EntryMode.swift",
       "kind": "IntegerLiteral",
       "offset": 182,
       "length": 18,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/EntryMode.swift",
       "kind": "IntegerLiteral",
       "offset": 210,
       "length": 10,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/Locale.swift",
+      "kind": "IntegerLiteral",
+      "offset": 140,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/Locale.swift",
+      "kind": "IntegerLiteral",
+      "offset": 151,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/Locale.swift",
+      "kind": "IntegerLiteral",
+      "offset": 168,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/Result.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/Result.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/PreviewSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 189,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/PreviewSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 237,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/PreviewSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 291,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/StepSettings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 176,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/StepSettings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonCameraSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 153,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonCameraSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 164,
+      "length": 4,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/Model\/CommonEntryMode.swift",
@@ -6954,48 +7667,6 @@
       "value": "3"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
-      "kind": "FloatLiteral",
-      "offset": 195,
-      "length": 4,
-      "value": "15.0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
-      "kind": "FloatLiteral",
-      "offset": 230,
-      "length": 4,
-      "value": "20.0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
-      "kind": "FloatLiteral",
-      "offset": 263,
-      "length": 4,
-      "value": "15.0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 573,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 626,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
-      "kind": "FloatLiteral",
-      "offset": 672,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/IdCardDetector.swift",
       "kind": "StringLiteral",
       "offset": 149,
@@ -7026,79 +7697,23 @@
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 563,
+      "offset": 568,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 656,
+      "offset": 661,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Detector\/PassportDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 699,
+      "offset": 704,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Extensions\/UIImage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 127,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Extensions\/UIImage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 227,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 204,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 269,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
-      "kind": "StringLiteral",
-      "offset": 459,
-      "length": 10,
-      "value": "\"yyyyMMdd\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
-      "kind": "StringLiteral",
-      "offset": 516,
-      "length": 13,
-      "value": "\"en_US_POSIX\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
-      "kind": "StringLiteral",
-      "offset": 583,
-      "length": 10,
-      "value": "\"GMT+0:00\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2601,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Base\/BaseScreen.swift",
@@ -7215,91 +7830,91 @@
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 15722,
+      "offset": 15738,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 15834,
+      "offset": 15850,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 16000,
+      "offset": 16016,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 16078,
+      "offset": 16094,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 16112,
+      "offset": 16128,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 16139,
+      "offset": 16155,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 16313,
+      "offset": 16329,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "StringLiteral",
-      "offset": 16430,
+      "offset": 16446,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 16577,
+      "offset": 16593,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 16921,
+      "offset": 16937,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 16961,
+      "offset": 16977,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 16996,
+      "offset": 17012,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Presentation\/Document detection\/DocumentPreviewScreen.swift",
       "kind": "StringLiteral",
-      "offset": 19269,
+      "offset": 19285,
       "length": 2,
       "value": "\"\""
     },
@@ -7689,60 +8304,137 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceResult.swift",
-      "kind": "StringLiteral",
-      "offset": 169,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceResult.swift",
-      "kind": "StringLiteral",
-      "offset": 218,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePreviewSettings.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Extensions\/UIImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 189,
-      "length": 5,
-      "value": "false"
+      "offset": 127,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePreviewSettings.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/Extensions\/UIImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 237,
-      "length": 5,
-      "value": "false"
+      "offset": 227,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalancePreviewSettings.swift",
-      "kind": "BooleanLiteral",
-      "offset": 291,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceLocale.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
       "kind": "IntegerLiteral",
-      "offset": 140,
+      "offset": 204,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 10,
+      "value": "\"yyyyMMdd\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 10,
+      "value": "\"GMT+0:00\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2601,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "kind": "FloatLiteral",
+      "offset": 195,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "kind": "FloatLiteral",
+      "offset": 230,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "kind": "FloatLiteral",
+      "offset": 263,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 625,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 678,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "kind": "FloatLiteral",
+      "offset": 724,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Common\/CommonOptions.swift",
+      "kind": "FloatLiteral",
+      "offset": 766,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/CameraSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 155,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceLocale.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/CameraSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 151,
-      "length": 7,
+      "offset": 166,
+      "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/BalanceLocale.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/PresentationStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 168,
-      "length": 7,
-      "value": "2"
+      "offset": 160,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/balance-ios-sdk\/Balance\/Balance\/Model\/PresentationStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 171,
+      "length": 5,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Balance-bxzsavplcvizcacznlenvsphelde\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Balance\/IntermediateBuildFilesPath\/Balance.build\/Release-iphoneos\/Balance.build\/DerivedSources\/CoreMLGenerated\/common_license\/common_license.swift",

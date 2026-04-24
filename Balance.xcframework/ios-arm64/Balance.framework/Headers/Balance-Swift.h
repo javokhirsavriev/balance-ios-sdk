@@ -317,6 +317,11 @@ SWIFT_CLASS("_TtC7Balance17BalanceAppearance")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+typedef SWIFT_ENUM(NSInteger, BalanceCameraSelector, open) {
+  BalanceCameraSelectorFront = 0,
+  BalanceCameraSelectorBack = 1,
+};
+
 @class BalanceConfig;
 @protocol BalanceClientDelegate;
 @class UINavigationController;
@@ -345,6 +350,7 @@ SWIFT_CLASS("_TtC7Balance13BalanceConfig")
 @interface BalanceConfig : NSObject
 @property (nonatomic) enum BalanceLocale locale;
 @property (nonatomic) enum BalanceEntryMode entryMode;
+@property (nonatomic) enum BalanceCameraSelector cameraSelector;
 @property (nonatomic) enum BalancePresentationStyle presentationStyle;
 @property (nonatomic, strong) BalanceAppearance * _Nullable appearance;
 @property (nonatomic, strong) BalancePreviewSettings * _Nonnull previewSettings;
@@ -352,6 +358,7 @@ SWIFT_CLASS("_TtC7Balance13BalanceConfig")
 @property (nonatomic) BOOL isResident;
 @property (nonatomic) BOOL requireDocumentDetectionOnSelfieStage;
 @property (nonatomic) CGFloat faceCropExpandPercent;
+@property (nonatomic) CGFloat distanceFromScreen;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -423,6 +430,11 @@ SWIFT_CLASS("_TtC7Balance19BalanceStepSettings")
 @property (nonatomic) NSInteger total;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+typedef SWIFT_ENUM(NSInteger, CommonCameraSelector, open) {
+  CommonCameraSelectorFront = 0,
+  CommonCameraSelectorBack = 1,
+};
 
 #endif
 #if __has_attribute(external_source_symbol)

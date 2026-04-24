@@ -17,53 +17,21 @@ import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @objc public class BalanceStepSettings : ObjectiveC.NSObject {
-  @objc public var current: Swift.Int
-  @objc public var total: Swift.Int
-  @objc override dynamic public init()
-  @objc deinit
-}
 @_inheritsConvenienceInitializers @objc public class BalanceClient : ObjectiveC.NSObject {
   @objc public class func showScanner(withConfig config: Balance.BalanceConfig, withDelegate delegate: any Balance.BalanceClientDelegate)
   @objc public class func buildViewController(withConfig config: Balance.BalanceConfig, withDelegate delegate: any Balance.BalanceClientDelegate, showCancelButton: Swift.Bool = true, shouldDismiss: Swift.Bool = false) -> UIKit.UINavigationController
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public enum BalancePresentationStyle : Swift.Int {
-  case Full = 0
-  case Sheet
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.Int)
-  #endif
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
 @objc public protocol BalanceClientDelegate {
   @objc func onCompleted(result: Balance.BalanceResult)
   @objc func onFailed(exception: Balance.BalanceException)
   @objc func onCanceled()
 }
-@_inheritsConvenienceInitializers @objc public class BalanceAppearance : ObjectiveC.NSObject {
-  @objc public var colorPrimary: UIKit.UIColor?
-  @objc public var colorError: UIKit.UIColor?
-  @objc public var colorBackground: UIKit.UIColor?
-  @objc public var colorForeground: UIKit.UIColor?
-  @objc public var colorOutline: UIKit.UIColor?
-  @objc public var colorDivider: UIKit.UIColor?
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc public class BalanceException : ObjectiveC.NSObject {
-  @objc public var message: Swift.String
-  @objc public var code: Swift.Int
-  public init(message: Swift.String, code: Swift.Int)
-  @objc deinit
-}
 @_inheritsConvenienceInitializers @objc public class BalanceConfig : ObjectiveC.NSObject {
   @objc public var locale: Balance.BalanceLocale
   @objc public var entryMode: Balance.BalanceEntryMode
+  @objc public var cameraSelector: Balance.BalanceCameraSelector
   @objc public var presentationStyle: Balance.BalancePresentationStyle
   @objc public var appearance: Balance.BalanceAppearance?
   @objc public var previewSettings: Balance.BalancePreviewSettings
@@ -71,6 +39,7 @@ import _SwiftConcurrencyShims
   @objc public var isResident: Swift.Bool
   @objc public var requireDocumentDetectionOnSelfieStage: Swift.Bool
   @objc public var faceCropExpandPercent: CoreFoundation.CGFloat
+  @objc public var distanceFromScreen: CoreFoundation.CGFloat
   @objc override dynamic public init()
   @objc deinit
 }
@@ -86,6 +55,24 @@ import _SwiftConcurrencyShims
   public var rawValue: Swift.Int {
     get
   }
+}
+@objc public enum BalanceLocale : Swift.Int {
+  case Kyrgyz = 0
+  case English
+  case Russian
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class BalanceException : ObjectiveC.NSObject {
+  @objc public var message: Swift.String
+  @objc public var code: Swift.Int
+  public init(message: Swift.String, code: Swift.Int)
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class BalanceResult : ObjectiveC.NSObject {
   @objc public var personalNumber: Swift.String
@@ -118,10 +105,15 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public enum BalanceLocale : Swift.Int {
-  case Kyrgyz = 0
-  case English
-  case Russian
+@_inheritsConvenienceInitializers @objc public class BalanceStepSettings : ObjectiveC.NSObject {
+  @objc public var current: Swift.Int
+  @objc public var total: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum CommonCameraSelector : Swift.Int {
+  case Front = 0
+  case Back
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
   #endif
@@ -130,12 +122,50 @@ import _SwiftConcurrencyShims
     get
   }
 }
-extension Balance.BalancePresentationStyle : Swift.Equatable {}
-extension Balance.BalancePresentationStyle : Swift.Hashable {}
-extension Balance.BalancePresentationStyle : Swift.RawRepresentable {}
+@objc public enum BalanceCameraSelector : Swift.Int {
+  case Front = 0
+  case Back
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class BalanceAppearance : ObjectiveC.NSObject {
+  @objc public var colorPrimary: UIKit.UIColor?
+  @objc public var colorError: UIKit.UIColor?
+  @objc public var colorBackground: UIKit.UIColor?
+  @objc public var colorForeground: UIKit.UIColor?
+  @objc public var colorOutline: UIKit.UIColor?
+  @objc public var colorDivider: UIKit.UIColor?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum BalancePresentationStyle : Swift.Int {
+  case Full = 0
+  case Sheet
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 extension Balance.BalanceEntryMode : Swift.Equatable {}
 extension Balance.BalanceEntryMode : Swift.Hashable {}
 extension Balance.BalanceEntryMode : Swift.RawRepresentable {}
 extension Balance.BalanceLocale : Swift.Equatable {}
 extension Balance.BalanceLocale : Swift.Hashable {}
 extension Balance.BalanceLocale : Swift.RawRepresentable {}
+extension Balance.CommonCameraSelector : Swift.Equatable {}
+extension Balance.CommonCameraSelector : Swift.Hashable {}
+extension Balance.CommonCameraSelector : Swift.RawRepresentable {}
+extension Balance.BalanceCameraSelector : Swift.Equatable {}
+extension Balance.BalanceCameraSelector : Swift.Hashable {}
+extension Balance.BalanceCameraSelector : Swift.RawRepresentable {}
+extension Balance.BalancePresentationStyle : Swift.Equatable {}
+extension Balance.BalancePresentationStyle : Swift.Hashable {}
+extension Balance.BalancePresentationStyle : Swift.RawRepresentable {}

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/Balance-Swift.h</key>
 		<data>
-		gDRDEDOWxXIsDoxvJFpTdEkuFds=
+		Cod9qRNOLtFgukRZA8vva22I8fI=
 		</data>
 		<key>Headers/Balance.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vBGhJE3so7eUSdTbbGZpLN/GHVw=
+		JGb8CRWLXew5g7W/DlzChrEu8mo=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		a68iFaScILUjXzAAkQ60tR8X3l4=
+		juGgPpHmQnK/Y02NIbGxUAqDufU=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		tcZZRjt+mW3P5rrgX1PqYK5YOkA=
+		XEG5cdwJmMnzInvl8HTT8/SyawQ=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		tcZZRjt+mW3P5rrgX1PqYK5YOkA=
+		XEG5cdwJmMnzInvl8HTT8/SyawQ=
 		</data>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		291LrcpVdrlu51n8osR3ngizX3c=
+		EKMI3UgidtaEljzIgFngVI7fZpk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>common_license.mlmodelc/coremldata.bin</key>
 		<data>
-		jvUk22p2yFslv5Rw1X022IubJP4=
+		VkFu8z7olmND6vTVso+Q+hhQ7sk=
 		</data>
 		<key>common_license.mlmodelc/metadata.json</key>
 		<data>
-		DrykOhpaofHObUuMBqkE3jQ5rF0=
+		Wth+PlvDkbjvo2Vr1OSH3gwiYNA=
 		</data>
 		<key>common_license.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>common_license.mlmodelc/model0/coremldata.bin</key>
 		<data>
-		XPsRu6aD1RT7I7FaLztDzDRgpDc=
+		/69kiYS/LHPcy47tLGBKR9j7doY=
 		</data>
 		<key>common_license.mlmodelc/model0/model.mil</key>
 		<data>
@@ -94,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rA/sEdFFUgpUbTZg4BAfmTt68xvT5K5CDQOu2SF3PA4=
+			aE8TMdwiwEeeToNdcuBUXFHAQijTMKU6MXX/NiddlJA=
 			</data>
 		</dict>
 		<key>Headers/Balance.h</key>
@@ -108,14 +108,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W1oF2OePc6iDq0mTW1iysWSC51U7SiWKODH3i9vdh2Y=
+			omsWWgadu3fo+HEXeUDXxfdjED6JqI1w9+18PunStWM=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2q73+sdSyxz6x4ClhBSUsqIWRRxZk3ljmbwBdjT2svY=
+			Bi8u+rBq5aD71P4oCSID2sJq1/cU154LN462cewtOgQ=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -129,14 +129,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2q73+sdSyxz6x4ClhBSUsqIWRRxZk3ljmbwBdjT2svY=
+			Bi8u+rBq5aD71P4oCSID2sJq1/cU154LN462cewtOgQ=
 			</data>
 		</dict>
 		<key>Modules/Balance.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XgBKNcGtU1tMFsCwTZKgaFkMD7UuXNLBcW2OO3nb2w0=
+			HFvYgJ1vVVDfg44aBomSgWOuRgvwWFnynDmKF3m3B2E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -164,14 +164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gAOt/foPPiwVbplYDxaNi8R68KmtYqCn349M/YtHxmE=
+			s9b55qPL/4w20+SLaCQLt/ajFYQ1bB52modcERpVoyg=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JZpBH5XDsMJPRVuCfy6Ek4Ae/6VxvYDSrIAykC3058U=
+			T4O0m96kcV63JZn7AX68h2izH5c0ss9HmihZzu4+AcM=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/model0/analytics/coremldata.bin</key>
@@ -185,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EgnIax3xqIcxWDL0fLl6z9Pvy4Xnkm7lbzra7RaK+P8=
+			7M5RHTBl9xa/2jfomhpEGPWao2Qv3bQnXKVVmi45rOo=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/model0/model.mil</key>
